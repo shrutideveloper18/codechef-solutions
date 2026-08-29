@@ -1,0 +1,24 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner s=new Scanner(System.in);
+		int t=s.nextInt();
+		for(int i=0;i<t;i++){
+		    int n=s.nextInt();
+		   int reverse=0;
+		    while(n>0){
+		        int digit=n%10;
+		        reverse=reverse*10+digit;
+		        n=n/10;
+		    }
+		    System.out.println(reverse);
+		}
+
+	}
+}

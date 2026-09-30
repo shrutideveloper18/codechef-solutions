@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-
+//i am just checking if the contribution graph is working or not
 class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
